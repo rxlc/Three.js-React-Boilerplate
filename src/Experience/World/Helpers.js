@@ -13,8 +13,8 @@ export default class Helpers {
     }
 
     setInstance() {
-        this.gridInstance = new THREE.GridHelper(this.size, this.divisions);
-        this.axesInstance = new THREE.AxesHelper(10);
+        //this.gridInstance = new THREE.GridHelper(this.size, this.divisions);
+        //this.axesInstance = new THREE.AxesHelper(10);
 
         this.scene.add(this.gridInstance);
         this.scene.add(this.axesInstance);
